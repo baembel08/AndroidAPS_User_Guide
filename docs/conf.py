@@ -279,7 +279,7 @@ latex_elements = {
 #latex_documents = [
 #    (master_doc, 'Test_AndroidAPS_Doc.tex', 'Test\\_AndroidAPS\\_Doc Documentation',
 #     'baembel08', 'manual'),
-]
+#]
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
