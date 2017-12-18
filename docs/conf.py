@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# Test_AndroidAPS_Doc documentation build configuration file, created by
+# AndroidAPS_Doc documentation build configuration file, created by
 # sphinx-quickstart on Fri Nov 17 16:31:05 2017.
 #
 # This file is execfile()d with the current directory set to its
@@ -60,16 +60,16 @@ source_suffix = ['.rst', '.md']
 #source_encoding = 'utf-8-sig'
 
 extra_nav_links = { 
-'docs': 'https://github.com/baembel08/Test-a-sphinx-wiki/tree/master/docs', 
+'docs': 'https://github.com/MilosKozak/AndroidAPS_User_Guide/tree/master/docs', 
 } 
 
 # The master toctree document.
 master_doc = 'index'
 
 # General information about the project.
-project = 'Test_AndroidAPS_Doc'
+project = 'AndroidAPS User Guide'
 copyright = '2017, AndroidAPS - Team'
-author = 'AndroidAPS - Team'
+author = '#AndroidAPS - Community'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -145,7 +145,7 @@ html_theme_options = {
 
 # The name for this set of Sphinx documents.
 # "<project> v<release> documentation" by default.
-html_title = 'AndroidAPS documentation v0.1'
+html_title = 'AndroidAPS Documentation v0.1'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
@@ -169,7 +169,7 @@ html_static_path = ['_static']
 # directly to the root of the documentation.
 #html_extra_path = []
 extra_nav_links = {
-  'docs': 'https://github.com/baembel08/Test-a-sphinx-wiki/master/docs/',
+  'docs': 'https://github.com/MilosKozak/AndroidAPS_User_Guide/master/docs/',
   }
 
 # Theme options are theme-specific and customize the look and feel of a theme
@@ -343,12 +343,12 @@ locale_dirs = ['locale/']
 # Set up ReadTheDocs theme with custom style overrides
 
 # on_rtd is whether we are on readthedocs.org, this line of code grabbed from docs.readthedocs.org
-github_doc_root = 'https://github.com/baembel08/Test-a-sphinx-wiki/tree/master/docs'
+github_doc_root = 'https://github.com/MilosKozak/AndroidAPS_User_Guide/tree/master/docs'
 hosted_root = 'http://localhost:8000/'
 on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
 if on_rtd:
   rtd_version = os.environ.get('READTHEDOCS_VERSION')
-  hosted_root = 'https://github.com/baembel08/Test-a-sphinx-wiki/tree/master/docs/en/%s/' % rtd_version
+  hosted_root = 'https://github.com/MilosKozak/AndroidAPS_User_Guide/tree/master/docs/en/%s/' % rtd_version
 def setup(app):
     app.add_config_value('recommonmark_config', {
             'url_resolver': lambda url: github_doc_root + url,
