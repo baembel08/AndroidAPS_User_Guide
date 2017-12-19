@@ -16,7 +16,7 @@ Building APK
 * Click on BuildVariants button on the bottom left of the Android Studio, and notice that you have several kinds of build types.
 
 
-![Full wear control](https://github.com/gempickfordwaugh/AndroidAPS/raw/b09d7dc444f59b799888bcd596e36e1d562a9674/fullwearcontrolrelease.png)
+![fullWearcontrolRelease](https://github.com/gempickfordwaugh/AndroidAPS/raw/b09d7dc444f59b799888bcd596e36e1d562a9674/fullwearcontrolrelease.png)
 
 * Select the build type you want to build. There are different modular options, the different parts of the name are described below to help you choose, we recommend **bold** for default AndroidAPS app (**fullWearcontrolRelease**) or _italic_ for parents monitoring looping (_nsclientWearRelease_).
     * **full - full app**
