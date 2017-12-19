@@ -10,6 +10,7 @@ Welcome to AndroidAPS documentation!
    
    English Version </en/index>
    Deutsche Version </de/index>
+   Българска версия </bg/index>
    sources
    
 

@@ -18,13 +18,35 @@ Please note - this project has no association with and is not endorsed by:
 
 
 
+Getting started
+---------------
 
 .. toctree::
    :maxdepth: 2
  
-   en_GettingStarted   
+   en_GettingStarted  
+
+Installation
+------------   
+
+.. toctree::
+   :maxdepth: 2
    en_Installation
+
+Configuration
+-------------
+
+.. toctree::
+   :maxdepth: 2
+   
    en_Configuration
+
+Usage
+-----
+
+.. toctree::
+   :maxdepth: 2 
+   
    en_Usage
  
  
