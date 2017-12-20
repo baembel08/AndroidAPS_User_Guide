@@ -276,10 +276,10 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
-#latex_documents = [
-#    (master_doc, 'Test_AndroidAPS_Doc.tex', 'Test\\_AndroidAPS\\_Doc Documentation',
-#     'baembel08', 'manual'),
-#]
+latex_documents = [
+    (master_doc, 'AndroidAPS_Doc.tex', 'AndroidAPS\\_Doc Documentation',
+     '#AndroidAPS Community', 'manual'),
+]
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
