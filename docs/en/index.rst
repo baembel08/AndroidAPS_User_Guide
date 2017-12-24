@@ -31,6 +31,7 @@ Installation
 
 .. toctree::
    :maxdepth: 2
+   
    en_Installation
 
 Configuration
