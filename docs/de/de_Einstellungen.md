@@ -134,12 +134,12 @@ Sie können hier zwischen offenem und geschlossenen Loop umschalten. Offener Loo
 Profil
 ------
 
-Auswahl 'Sync Profil Pumpe' sendet Ihr aktuelles AndroidAPS Profil an die Pumpe als Basale Profil 1. Wenn AndroidAPS unterbricht oder die Verbindung zur Pumpe verloren geht, wird Ihre Pumpe auf das gleiche Profil als Standard zurückgesetzt, anstatt dass Sie es manuell in der Pumpe eingeben. Weitere Informationen zu Profilen finden Sie unter [[arbeiten mit Profilen in 1.5]].
+Auswahl 'Sync Profil Pumpe' sendet Ihr aktuelles AndroidAPS Profil an die Pumpe als Basale Profil 1. Wenn AndroidAPS unterbricht oder die Verbindung zur Pumpe verloren geht, wird Ihre Pumpe auf das gleiche Profil als Standard zurückgesetzt, anstatt dass Sie es manuell in der Pumpe eingeben. Weitere Informationen zu Profilen finden Sie unter [Arbeiten mit Profilen in 1.5](http://androidaps-user-guide.readthedocs.io/en/latest/de/de_Benutzung.html#profil-funktion-ab-version-1-5).
 
 Einstellungen der Pumpe
 -----------------------
 
-Die Optionen variieren hier je nachdem, welchen Pumpen Treiber Sie im "Config Generator" ausgewählt haben. Koppeln und einrichten Sie ihre Pumpe entsprechend den Anweisungen der [[DanaR Insulinpumpe]] wo relevant.
+Die Optionen variieren hier je nachdem, welchen Pumpen Treiber Sie im "Config Generator" ausgewählt haben. Koppeln und einrichten Sie ihre Pumpe entsprechend den Anweisungen der [DanaR Insulinpumpe](http://androidaps-user-guide.readthedocs.io/en/latest/de/de_Einstellungen.html#danar-insulinpumpe) wo relevant.
 
 NS-Client
 ---------
@@ -152,12 +152,12 @@ NS-Client
 SMS-Communicator
 ----------------
 
-Diese Einstellung ermöglicht die Fernsteuerung der App durch SMS-Anweisungen zum Patienten-Smartphone, das der App folgt, wie die Aussetzung des Loops oder Bolusing. Weitere Informationen sind in [[SMS-Befehle]] beschrieben.
+Diese Einstellung ermöglicht die Fernsteuerung der App durch SMS-Anweisungen zum Patienten-Smartphone, das der App folgt, wie die Aussetzung des Loops oder Bolusing. Weitere Informationen sind in [SMS-Befehle](http://androidaps-user-guide.readthedocs.io/en/latest/de/de_Benutzung.html#sms-befehle) beschrieben.
 
 Andere
 ------
 
-* Sie können Standardwerte für Ihre temporären Ziele hier eingeben, weitere Informationen finden Sie unter [[Open APS-Funktionen]]. 
+* Sie können Standardwerte für Ihre temporären Ziele hier eingeben, weitere Informationen finden Sie unter [Open APS-Funktionen](http://androidaps-user-guide.readthedocs.io/en/latest/de/de_Benutzung.html#openaps-funktionen). 
 * Sie können Standard Prime Mengen eingeben - dieses wird die Pumpe auf den angegebenen Wert vorbereiten. Das Insulin wird wie abgegebens Insulin aus dem Reservoir bewertet aber nicht in IOB Berechnungen berücksichtigt. Schlagen Sie in der Anleitung für Ihre Kanüle-Box nach, für wieviele Einheiten je nach Länge der Nadel und Schlauchlänge vorbelegt werden sollten.
 * Sie können die Anzeige für den Homescreen ändern und sehen, ob die Werte in den Zielbereichen liegen. Beachten Sie, dass dieses nur das Aussehen des Graphen ändert, nicht aber die Zielbereiche oder Berechnungen.
 * "Tab-Reiter Verkürzen " erlaubt Ihnen, weitere Tab-Reiter auf dem Bildschirm zu sehen, zum Beispiel wird die "Open APS" Registerkarte zu 'OAPS', 'Objectives' wird zu 'Obj', etc.
@@ -170,25 +170,34 @@ Erweiterte Einstellungen  erfordert mehr Arbeit
 
 Benutzer von Abbot Freestyle Libre Sensoren, die ihre Datenerfassung von Glukose über Geräte wie LimiTTer machen, werden vielleicht bessere Ergebnisse mit AAPS erhalten.
 
-Weitere Hinweise zur Datenglättung, wenn Sie xDrip + als Datenquelle verwenden, finden Sie unter [Glätten Blut-Glukose-Daten in xDrip +](https://github.com/MilosKozak/AndroidAPS/wiki/Smoothing-blood-glucose-data-in-xDrip).
 
-Android Wear Einstellungen
---------------------------
+AAPS funktioniert am besten, wenn die Blutzuckerdaten glatt und konsistent sind. Wenn Sie xDrip + als Datenquelle verwenden, können Sie einige Maßnahmen ergreifen, um das Rauschen in den Daten zu reduzieren.
 
-Weitere Informationen über das Wear Watchface Einstellungen finden Sie unter [[Watchfaces]].
+Benutzer von Abbot Freestyle Libre-Sensoren, die ihre Blutzuckerdaten über Geräte wie LimiTTers sammeln, können feststellen, dass diese Einstellungen zu besseren Ergebnissen mit AAPS führen.
+
+**Smooth Sensor Noise** In xDrip + Einstellungen> xDrip + Display-Einstellungen stellen Sie sicher, dass das Smooth Sensor Noise eingeschaltet ist. Dieses versucht eine Glättung auf verrauschte Daten anzuwenden.
+
+** Glattes Sensorrauschen (ultrasensitiv). ** Wenn Sie in xDrip + immer noch verrauschte Daten sehen, können Sie aggressiveres Glätten mit der Einstellung Glattes Sensorrauschen (ultrasensitiv) anwenden. Dies wird versuchen, eine Glättung sogar bei sehr niedrigen Pegeln von detektiertem Rauschen anzuwenden. 
+
+Der Engineering Mode in xDrip+ aktiviert erweiterte und experimenntelle Funktionen innerhalb der App.
+
+Um den Engineering Mode zu Aktivieren, Gehen sie auf dem xDrip+ Hauptmenü und Klicken Sie auf das Behandlungs - Icon an der rechten oberen Seite (symbolisiert durch eine Spritze). Danach Drücken und Halten sie das Microphon Icon am rechten unteren Ende des Treatment Displays. Im Textfeld, das sich öffnet, geben Sie "enable engineering mode" ein und Klicken sie auf *Done*. Der Engineering Modus ist jetzt aktiviert.
+
+Navigieren Sie dann zu Einstellungen> xDrip + Display-Einstellungen und aktivieren Sie Sensorrauschen glätten (ultrasensitiv).
+
 
 
 Watchfaces
 ==========
 
-In AndroidAPS ist es möglich, dass man die Pumpe über Android Wear Uhren kontrolliert. Um diese Möglichkeit zu nutzen, musst du beim [Kompilieren der App](installation.md) die Build Variante "fullWearcontrolRelease" wählen.
+In AndroidAPS ist es möglich, dass man die Pumpe über Android Wear Uhren kontrolliert. Um diese Möglichkeit zu nutzen, musst du beim [Kompilieren der App](http://androidaps-user-guide.readthedocs.io/en/latest/de/de_Installation.html#apk-erstellen) die Build Variante "fullWearcontrolRelease" wählen.
 In AndroidAPS, im Config Builder, musst du dann noch `enable Wear` aktivieren. Es gibt verschiedene Watchfaces zum auswählen, enthalten sind durchschnittliches Delta, IOB, zur Zeit aktive Temp.Basalrate, das Basalprofil, und deine BZ Werte. Du kannst die AndroidAPS Watch App, auch verwenden, um ein Temp Target zu setzen, Bolus ab zu geben, den Bolus Wizard verwenden, Infusionset füllen, und den Status vom Loop und der Pumpe kontrollieren. 
 Stelle sicher, dass AndroidAPS die Erlaubnis hat, um Benachrichtigungen auf der Uhr anzuzeigen (sonst kann man die Eingaben nicht bestätigen). Die Eingaben werden bestätigt in dem man die Benachrichtigung auf der Uhr öffnet, einmal wischt und bestätigt.
 
 In Android Wear 2.0 installiert sich das Watchface nicht von alleine. Du musst in den Playstore der Uhr gehen, und unter der Kategorie "installierte Apps auf dem Smartphone" AAPS aktivieren. Aktiviere ebenalls Auto Update.
 
 Falls du ein anderes System zum Loopen verwendest und deine Daten, oder die deines Kindes/Verwandten, auf der Uhr sehen möchtest, kannst du auch einfach nur die Watch APK kompilieren. 
-Um nur die Watch APK zu kompilieren folge der [Anleitung](installation.md) und wähle die Build Variante "nsclientWearRelease".
+Um nur die Watch APK zu kompilieren folge der [Anleitung](http://androidaps-user-guide.readthedocs.io/en/latest/de/de_Installation.html#apk-erstellen) und wähle die Build Variante "nsclientWearRelease".
 
 Pebble Nutzer können das [Urchin watchface](https://github.com/mddub/urchin-cgm) benutzen um ihre Loop Daten (vorausgesetzt sie sind auf Nightscout) zu sehen, aber mit dieser Methode ist es nicht möglich die Pumpe und AndroidAPS zu steuern.
 Du kannst Felder wählen um, z.B. IOB, aktiver temp. Basalrate und Vorhersage, anzeigen zu lassen. Falls du open loopst kannst du [IFTTT](https://ifttt.com/) benutzen um ein kleines Programm erstellen, welches bestimmt, wenn eine Benachrichtigungen von AndroidAPS kommt, eine SMS oder Benachrichtigung anzeigt.

@@ -199,4 +199,4 @@ For most looping terms see here: https://openaps.readthedocs.io/en/latest/docs/R
 
 Some AndroidAPS specific terms include:
 
-[[Circadian Percentage Profile]] - changes your base profile based on either a timeshift or a percentage.
+[Circadian Percentage Profile](http://androidaps-user-guide.readthedocs.io/en/latest/en/en_Usage.html#circadian-percentage-profile) - changes your base profile based on either a timeshift or a percentage.

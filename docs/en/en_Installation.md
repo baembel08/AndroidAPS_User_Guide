@@ -4,7 +4,7 @@ How to install AndroidAPS
 Install Android Studio
 ----------------------
 
-[Installing Android Studio](https://developer.android.com/studio/install.html)
+Look here: [Installing Android Studio](https://developer.android.com/studio/install.html)
 
 Building APK
 ============
@@ -50,8 +50,8 @@ Building APK
 * Copy the APK with the same finename as the buildtype you chose to your android phone, and install it.  
   If the apk does not install and you have an older version of AndroidAPS on your phone that was signed with a different key then you will need to uninstall this first, remember to export your settings if so.
   
-Update to new version
-=====================
+Update to a new version
+=======================
   
 Install git (if you don't have it)
 ----------------------------------

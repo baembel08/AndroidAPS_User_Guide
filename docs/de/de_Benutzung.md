@@ -9,17 +9,17 @@ AndroidAPS hat eine Reihe an `Objectives`, die erfüllt werden müssen um dich d
 Wenn du auf ein anderes Smartphone umsteigst, kannst du deine Einstellungen und den Fortschritt exportieren. Bei den drei Punkten, oben rechts, wähle _Export Settings_, es wird eine Benachrichtigung erscheinen wo die Preferences Datei gespeichert wird (normalerweise im Hauptordner des internen Speichers). Beim neuen Smartphone musst du diese Datei, dann in den gleichen Pfad kopieren, und anschließend _Import Settings_ wählen. Es werden alle mögliche Einstellungen, auch die Sicherheitseinstellungen, und der Fortschritt in den Objectives gespeichert. Falls du das nicht machst gehen alle deine Einstellungen (bei Benutzung des Local Profiles, auch das Profil), und Fortschritte nicht verfügbar sein. Deshalb solltest du immer wieder mal eine Sicherheitskopie machen, dass du im Falle eines Verlustes, Beschädigung, etc. deine Daten nicht verlierst.
  
 * **Objective 1:** Visualisierung und Konstrolle einrichten, und die Basalrate und Faktoren überprüfen
-  * Wähle die richtige BZ-Quelle. Siehe [BZ-Quelle](https://github.com/MilosKozak/AndroidAPS/wiki/Blutzucker-Quelle_de) für Informationen.
-  * Wähle deine Pumpe im ConfigBuilder (wähle Virtual Pump, wenn du eine Pumpe ohne Treiber für AAPS verwendest). Wenn du die Dana verwendest, versichere dich, dass du die [Dana R](https://github.com/MilosKozak/AndroidAPS/wiki/DanaR-Insulinpumpe_de) und [AAPS](https://github.com/MilosKozak/AndroidAPS/wiki/AndroidAPS_de) Anleitung gelesen, und richtig eingestellt hast.
-  * Folge den Einstellungen zu [Nightscout](https://github.com/MilosKozak/AndroidAPS/wiki/Nightscout_de) um sicher zu stellen, dass du deine Daten erhältst und anzeigen lassen kannst.
+  * Wähle die richtige BZ-Quelle. Siehe [BZ-Quelle](http://androidaps-user-guide.readthedocs.io/en/latest/de/de_Einstellungen.html#CGM - BZ Quelle) für Informationen.
+  * Wähle deine Pumpe im ConfigBuilder (wähle Virtual Pump, wenn du eine Pumpe ohne Treiber für AAPS verwendest). Wenn du die Dana verwendest, versichere dich, dass du die [Dana R](http://androidaps-user-guide.readthedocs.io/en/latest/de/de_Einstellungen.html#danar-insulinpumpe) gelesen, und richtig eingestellt hast.
+  * Folge den Einstellungen zu [Nightscout](http://androidaps-user-guide.readthedocs.io/en/latest/de/de_Einstellungen.html#nightscout) um sicher zu stellen, dass du deine Daten erhältst und anzeigen lassen kannst.
 <br><br>_Es könnte sein, dass du für den nächsten BZ warten musst, damit ihn AAPS erhält und akzeptiert._
  
 * **Objective 2:** Start mit Open Loop
-  * Wähle Open Loop, entweder in den Preferences, oder indem du den Loop Button drückst und hältst, dieser befindet sich links oben im Homescreen.
+  * Wähle Open Loop, entweder in den [Einstellungen](http://androidaps-user-guide.readthedocs.io/en/latest/de/de_Einstellungen.html#einstellungen), oder indem du den Loop Button drückst und hältst, dieser befindet sich links oben im Homescreen.
   * Aktiviere mindesten 20 vorgeschlagene temp. Basalraten manuell über einen Zeitraum von 7 Tagen (Falls du eine andere Pumpe verwendest, gebe die Vorschläge in der Pumpe ein und bestätige es in AAPS). Versichere dich, dass die Daten in AAPS und Nightscout angezeigt werden.
  
 * **Objective 3:** Den Open Loop, mit seinen temp. Basal Empfehlungen, verstehen.
-  *Versuche die Logik hinter den Empfehlungen zu verstehen indem du dir diese [Seite] (https://openaps.readthedocs.io/en/latest/docs/While%20You%20Wait%20For%20Gear/Understand-determine-basal.html), die Vorhersagelinie in AAPS/Nightscout und die Ergebnisse im OpenAPS Tab ansiehst.
+  *Versuche die Logik hinter den Empfehlungen zu verstehen indem du dir diese [determine basal logic](https://openaps.readthedocs.io/en/latest/docs/While%20You%20Wait%20For%20Gear/Understand-determine-basal.html), die Vorhersagelinie in AAPS/Nightscout und die Ergebnisse im OpenAPS Tab ansiehst.
 <br><br>_Stoppe hier, wenn du den Open Loop mit der virtuellen Pumpe verwendest._
 
 * **Objective 4:** Mit dem closed Loop mit Hypoabschaltung starten
@@ -232,4 +232,4 @@ Der DanaRS Treiber wurde hinzugefügt, um mit der neuen DanaRS Pumpe zu kommuniz
 
   
 Wie mit allen Updates, wurde der vorherigen Code bereinigt, verbessert und von Fehlern behoben. <br />  
-Wenn Sie einen Fehler finden oder denken, etwas Falsches bei der Verwendung des die <0>Dev<0>-Branch ist passiert dann schauen sie in die [Registerkarte Issues](https://github.com/MilosKozak/AndroidAPS/issues), um zu überprüfen, ob jemand diesen Fehler bereits gefunden hat, oder fügen Sie ihn selbt hinzu, falls nicht. Je mehr Informationen Sie hier teilen können, desto besser (nicht vergessen, müssen Sie Ihre [Log-Dateien](https://github.com/MilosKozak/AndroidAPS/wiki/Accessing-logfiles) teilen). Die neuen Features können auch im [gitter chat room](https://gitter.im/MilosKozak/AndroidAPS) diskutiert werden.
+Wenn Sie einen Fehler finden oder denken, etwas Falsches bei der Verwendung des die <0>Dev<0>-Branch ist passiert dann schauen sie in die [Registerkarte Issues](https://github.com/MilosKozak/AndroidAPS/issues), um zu überprüfen, ob jemand diesen Fehler bereits gefunden hat, oder fügen Sie ihn selbt hinzu, falls nicht. Je mehr Informationen Sie hier teilen können, desto besser (nicht vergessen, müssen Sie Ihre [Log-Dateien](http://androidaps-user-guide.readthedocs.io/en/latest/de/de_Benutzung.html#zugriff-auf-logfiles) teilen). Die neuen Features können auch im [gitter chat room](https://gitter.im/MilosKozak/AndroidAPS) diskutiert werden.

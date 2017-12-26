@@ -13,8 +13,8 @@ English Version
 
 Please note - this project has no association with and is not endorsed by:
 
-- `SOOIL] <http://www.sooil.com/eng/>`__
-- `Dexcom] <http://www.dexcom.com/>`__
+- `SOOIL <http://www.sooil.com/eng/>`__
+- `Dexcom <http://www.dexcom.com/>`__
 
 
 
@@ -31,6 +31,7 @@ Installation
 
 .. toctree::
    :maxdepth: 2
+   
    en_Installation
 
 Configuration

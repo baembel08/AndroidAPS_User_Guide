@@ -1,6 +1,3 @@
-Usage
-=====
-
 Objectives
 ==========
 
@@ -9,14 +6,14 @@ AndroidAPS has a series of Objectives that need to be completed to walk you thro
 If you are upgrading phones then you can export your settings to keep your progress through the objectives; in the three dots in the top right corner select _Export settings_, it will tell you which folder it has saved the file to.  On your new phone copy the file over to that location and then select _Import settings_.  Not only will your progress through the objectives be saved, but also your safety settings such as max bolus etc.  If you do not export and import your settings then you will need to start the objectives from the beginning again.  It is a good idea to back up your settings frequently just in case.
  
 * **Objective 1:** Setting up visualization and monitoring, and analysing basals and ratios
-  * Select the right blood glucose source for your setup.  See [BG Source](https://github.com/MilosKozak/AndroidAPS/wiki/BG-Source) for more information.
-  * Select the right Pump in ConfigBuilder (select Virtual Pump if you are using a pump model with no AndroidAPS driver for open looping) to ensure your pump status can communicate with AndroidAPS.  If using DanaR pump then ensure you have followed [DanaR Insulin Pump](https://github.com/MilosKozak/AndroidAPS/wiki/DanaR-Insulin-Pump) instructions to ensure the link between pump and AndroidAPS.
-  * Follow instructions in [Nightscout](https://github.com/MilosKozak/AndroidAPS/wiki/Nightscout) page to ensure Nightscout can receive and display this data.
+  * Select the right blood glucose source for your setup.  See [BG Source](http://androidaps-user-guide.readthedocs.io/en/latest/en/en_Configuration.html#BG Source) for more information.
+  * Select the right Pump in ConfigBuilder (select Virtual Pump if you are using a pump model with no AndroidAPS driver for open looping) to ensure your pump status can communicate with AndroidAPS.  If using DanaR pump then ensure you have followed [DanaR Insulin Pump](http://androidaps-user-guide.readthedocs.io/en/latest/en/en_Configuration.html#DanaR-Insulin-Pump) instructions to ensure the link between pump and AndroidAPS.
+  * Follow instructions in [Nightscout](http://androidaps-user-guide.readthedocs.io/en/latest/en/en_Configuration.html#nightscout) page to ensure Nightscout can receive and display this data.
 <br><br>_You may need to wait for the next blood glucose reading to arrive before AndroidAPS will recognise it._
  
 * **Objective 2:** Starting on an open loop
   * Select Open Loop either from Preferences, or by pressing and holding the Loop button in top left of the home screen.
-  * Work through the [[Preferences]] to set up for you.
+  * Work through the [Preferences](http://androidaps-user-guide.readthedocs.io/en/latest/en/en_Configuration.html#Preferences) to set up for you.
   * Manually enact at least 20 of the temporary basal rate suggestions over a period of 7 days; input them to your pump and confirm in AndroidAPS that you have accepted them.  Ensure this data shows in AndroidAPS and Nightscout.
  
 * **Objective 3:** Understanding your open loop, including its temp basal recommendations
@@ -37,7 +34,7 @@ If you are upgrading phones then you can export your settings to keep your progr
  
 * **Objective 6:** Adjust basals and ratios if needed, and then enable auto-sens
   * You can use [autotune](https://openaps.readthedocs.io/en/latest/docs/Customize-Iterate/autotune.html) as a one off to check your basals remain accurate, or do a traditional basal test.
-  * Enable [auto-sens](https://github.com/MilosKozak/AndroidAPS/wiki/Open-APS-features) over a period of 7 days and watch the white line on the homescreen graph show how your sensitivity to insulin may be rising or falling as a result of exercise or hormones etc, and keep an eye in the OpenAPS report tab how AndroidAPS is adjusting the basals and/or targets accordingly.
+  * Enable [auto-sens](http://androidaps-user-guide.readthedocs.io/en/latest/en/en_Usage.html#open-aps-features) over a period of 7 days and watch the white line on the homescreen graph show how your sensitivity to insulin may be rising or falling as a result of exercise or hormones etc, and keep an eye in the OpenAPS report tab how AndroidAPS is adjusting the basals and/or targets accordingly.
 <br><br>_Don’t forget to record your looping in [this form](http://bit.ly/nowlooping) logging AndroidAPS as your type of DIY loop software, if you have not already done so._
  
 * **Objective 7:** Enabling additional features for daytime use, such as advanced meal assist
