@@ -43,7 +43,7 @@ Building APK
 
 * Please wait for some time until the APK is created. You will get the pop-up below when the process is done.
 
-![Generating APK](../images/androidstudio3.png)
+![Generating APK](../../images/androidstudio3.png)
 
 * Click on 'Show in Explorer'. You'll find the APK is generated, sometimes it may take time to display.
 
@@ -57,25 +57,25 @@ Install git (if you don't have it)
 ----------------------------------
 * Any git version should work. For example https://git-scm.com/download/win
 * Let Studio know where is git.exe located: File - Settings - Version Control - Git
-![Git](../images/git.png)
+![Git](../../images/git.png)
 
 Selecting a branch
 ------------------
 
 * If you want to change branch select another branch from tray: master (latest release) or dev (developement version)
 
-![Branch in tray](../images/branchintray.png)
+![Branch in tray](../../images/branchintray.png)
 
 and then checkout
 
-![Checkout](../images/checkout.png)
+![Checkout](../../images/checkout.png)
 
 Updating branch from Github
 ---------------------------
 
 * Press Ctrl+T, select Merge method and press OK
 
-![Merge](../images/merge.png)
+![Merge](../../images/merge.png)
 
 On the tray you'll see green message about updated project
 
@@ -85,8 +85,8 @@ Upload to phone
 * Connect phone now
 * Press "Play" button on top toolbar
 
-![Play](../images/play.png)
+![Play](../../images/play.png)
 
 * Select connected phone and press OK
 
-![Connected phone](../images/connectedphone.png)
+![Connected phone](../../images/connectedphone.png)

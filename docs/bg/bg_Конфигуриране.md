@@ -65,7 +65,7 @@ Nightscout
     * `PUMP_WARN_BATT_P` = `51`
     * `PUMP_URGENT_BATT_P` = `26`
 
-![Azure](../images/nightscout1.png)
+![Azure](../../images/nightscout1.png)
 
 * Натиснете "Save" в долния край на панела за да запазите направените промени.
 
@@ -78,7 +78,7 @@ DanaR-инсулинова-помпа
 * Разрешете удължен болус **"8. Extended Bolus: ON"**
 
 
- ![Dana-R](../images/danar1.png)
+ ![Dana-R](../../images/danar1.png)
  
  
 * Отворете главното меню> Настройка> Откриване

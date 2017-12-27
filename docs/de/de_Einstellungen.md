@@ -71,7 +71,7 @@ Es wird vorausgesetzt, dass du bereits eine eigene Nightscout Seite eingerichtet
     * `PUMP_WARN_BATT_P` = `51`
     * `PUMP_URGENT_BATT_P` = `26`
 
-[Nightscout](../images/nightscout1.png)
+[Nightscout](../../images/nightscout1.png)
 
 * Drücke Speichern.
 
@@ -84,7 +84,7 @@ DanaR-Insulinpumpe
 
 * Aktiviere "8. Extended Bolus"
 
-[Dana-R](../images/danar1.png])
+[Dana-R](../../images/danar1.png])
 
 * Gehe zum Hauptmenü -> Einstellen -> Suchen
 * Gehe auf dem Handy zu den Bluetootheinstellungen und suche Geräte in der Nähe. Wähle die Seriennummer deiner Dana und gebe das Passwort ein (Standard ist entweder 1234, oder 0000). Falls die Dana nicht aufscheind, starte das Handy neu und wechsle die Batterie der Dana, wiederhole anschließend diesen Schritt.

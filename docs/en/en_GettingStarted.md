@@ -68,7 +68,7 @@ Screenshots
 ![ConfigBuilder2](https://img1.picload.org/image/dgdgcila/aaps-config-builder2-small.jpg)
 
 
-![Objectives](../images/objectives.png)
+![Objectives](../../images/objectives.png)
 
 
 
@@ -91,7 +91,7 @@ PumpInterface pump = MainApp.getConfigBuilder().getActivePump();
 PumpEnactResult result = pump.deliverTreatment(insulin, carbs);
 ```
 
-![App design](../images/app_desing.png)
+![App design](../../images/app_desing.png)
 
 `ConfigBuilder` itself acts as `PumpInterface` and `ConstraintInterface`. So when you call `MainApp.getConfigBuilder().getActivePump()` `ConfigBuilder` return itself. Then when you interact with pump `ConfigBuilder` verifies constraints first and then pass command to selected pump driver.
 

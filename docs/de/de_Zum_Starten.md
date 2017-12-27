@@ -91,7 +91,7 @@ PumpInterface pump = MainApp.getConfigBuilder().getActivePump();
 PumpEnactResult result = pump.deliverTreatment(insulin, carbs);
 ```
 
-![App design](../images/app_desing.png)
+![App design](../../images/app_desing.png)
 
 `ConfigBuilder` an sich agiert als `PumpInterface` und `ConstraintInterface`. Wenn Sie `MainApp.getConfigBuilder().getActivePump()` aufrufen, gibt `ConfigBuilder` den eigenen Wert zurück. 
 Wenn Sie dann mit der Pumpe interagieren, überprüft `ConfigBuilder` zuerst Abhängigkeiten und leitet anschließend den Befehl zum Pumpen Treiber weiter.

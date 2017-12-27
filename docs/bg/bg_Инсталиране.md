@@ -51,12 +51,12 @@
 * Всяка git версия би трябвало да работи. Например https://git-scm.com/download/win
 * Посочете в Android Studio къде се намира git.exe. За целта изберете File - Settings - Version Control - Git
 
-![Git](../images/git.png)
+![Git](../../images/git.png)
 
 # Избиране на клон
 * Ако вие искате да промените клона изберете го най-долу: master (последна версия) или dev (версия в разработка)
 
-![Branch in tray](../images/branchintray.png)
+![Branch in tray](../../images/branchintray.png)
 
 и след това checkout
 
@@ -66,7 +66,7 @@
 # Обновяване на клон от Github
 * Натиснете Ctrl+T, изберете Merge и натиснете OK
 
-![Merge](../images/merge.png)
+![Merge](../../images/merge.png)
 
 
 В долната част на прозореца на Android Studio ще видите съобщение в зелено за направеното обновяване
@@ -76,8 +76,8 @@
 * Натиснете "Play" бутона от горната част на екрана (зелената стрелка)
 
 
-![Play](../images/play.png)
+![Play](../../images/play.png)
 
 * Изберете вашият телефон и потвърдете с OK
 
-![Connected phone](../images/connectedphone.png)
+![Connected phone](../../images/connectedphone.png)

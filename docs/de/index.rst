@@ -3,7 +3,7 @@ Deutsche Version
 
  .. warning:: 
 
-** Haftungsausschluss und Warnung **
+**Haftungsausschluss und Warnung**
 
 .. note:: Alle Informationen, Gedanken und Codes, die hier beschrieben werden, dienen nur zu Informations- und Bildungszwecken. Nightscout unternimmt derzeit keine HIPAA-Datenschutzbestimmungen. Verwenden Sie Nightscout und AndroidAPS auf eigene Gefahr, und verwenden Sie die Informationen oder den Code nicht, um medizinische Entscheidungen zu treffen.
 
@@ -13,8 +13,8 @@ Deutsche Version
 
 Bitte beachten Sie - dieses Projekt hat keine Verbindung mit und wird nicht unterstützt von:
 
-- `SOOIL] <http://www.sooil.com/eng/>`__
-- `Dexcom] <http://www.dexcom.com/>`__
+- `SOOIL <http://www.sooil.com/eng/>`__
+- `Dexcom <http://www.dexcom.com/>`__
 
 
 Zum Starten

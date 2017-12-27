@@ -80,7 +80,7 @@ PumpInterface pump = MainApp.getConfigBuilder().getActivePump();
 PumpEnactResult result = pump.deliverTreatment(insulin, carbs);
 ```
 
-![App design](../images/app_desing.png)
+![App design](../../images/app_desing.png)
 
 Самият `ConfigBuilder` е един вид интерфейс за помпата(`PumpInterface`) и интерфейс за ограниченията(`ConstraintInterface`). Така чрез извикване на функцията `MainApp.getConfigBuilder().getActivePump()` `ConfigBuilder` ще върне себе си като резултат. Така като изпращате команда към помпата `ConfigBuilder` първо проверява за спазване на ограниченията и тогава изпраща същинската команда към драйвера на помпата.
 

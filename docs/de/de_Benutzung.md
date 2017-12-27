@@ -190,7 +190,7 @@ Zugriff auf Logfiles
 * finde die Logfiles in diesem, oder ähnlichem Ordner (kann von Smartphone zu Smartphone verschieden sein)
     * Zur Erklärung: Dieser PC -> das Smartphone -> Interner Speicher -> Android -> data -> info.nightscout.androidaps -> files
 
-![AAPS log](../images/aapslog.png)
+![AAPS log](../../images/aapslog.png)
 
 * Das aktuelle Logfile ist dasjenige, welches mit .log endet, dieses kannst du auf verschiedene Arten ansehen, z.B. mit [LogCat](https://developer.android.com/studio/debug/am-logcat.html) in Android Studio, Log Viewer Android App, oder einfach mit dem Text Editor. Ältere Logfiles sind gezippt und in Ordnern nach Datum und Zeit sortiert. 
   Wenn du die Logfiles in [gitter](https://gitter.im/MilosKozak/AndroidAPS) teilst, um über etwaige Bugs zu berichten, entzippe den Ordner mit der Zeit bevor und während dieser Bug aufgetreten ist, und lade ihn hoch.

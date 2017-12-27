@@ -62,11 +62,11 @@ Wähle einen "branch"
 --------------
 * Falls du "branch" wechseln willst, wähle eine andere "branch" vom Reiter: master (aktuellste, getestete Version), oder dev (Entwicklungsversion)
 
-![Branch in tray](../images/branchintray.png)
+![Branch in tray](../../images/branchintray.png)
 
 dann checke aus
 
-![Checkout](../images/checkout.png)
+![Checkout](../../images/checkout.png)
 
 
 Branchupdate von Github
@@ -74,7 +74,7 @@ Branchupdate von Github
 
 * Drücke Ctrl+T, wähle Merge method und drücke OK
 
-![Merge](../images/merge.png)
+![Merge](../../images/merge.png)
 
 
 Auf dem Reiter siehst du eine grüne Nachricht "updated project"
@@ -85,8 +85,8 @@ Upload auf das Smartphone
 * Verbinde das Handy
 * Drücke den "Play" Knop oben in der Leiste
 
-![Play](../images/play.png)
+![Play](../../images/play.png)
 
 * Wähle das verbundene Handy und drücke OK
 
-![Connected phone](../images/connectedphone.png)
+![Connected phone](../../images/connectedphone.png)
