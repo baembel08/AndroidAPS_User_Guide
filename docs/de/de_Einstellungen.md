@@ -84,7 +84,7 @@ DanaR-Insulinpumpe
 
 * Aktiviere "8. Extended Bolus"
 
-[Dana-R](../../images/danar1.png])
+[Dana-R](../../images/danar1.png)
 
 * Gehe zum Hauptmenü -> Einstellen -> Suchen
 * Gehe auf dem Handy zu den Bluetootheinstellungen und suche Geräte in der Nähe. Wähle die Seriennummer deiner Dana und gebe das Passwort ein (Standard ist entweder 1234, oder 0000). Falls die Dana nicht aufscheind, starte das Handy neu und wechsle die Batterie der Dana, wiederhole anschließend diesen Schritt.
@@ -171,15 +171,15 @@ Erweiterte Einstellungen  erfordert mehr Arbeit
 Benutzer von Abbot Freestyle Libre Sensoren, die ihre Datenerfassung von Glukose über Geräte wie LimiTTer machen, werden vielleicht bessere Ergebnisse mit AAPS erhalten.
 
 
-AAPS funktioniert am besten, wenn die Blutzuckerdaten glatt und konsistent sind. Wenn Sie xDrip + als Datenquelle verwenden, können Sie einige Maßnahmen ergreifen, um das Rauschen in den Daten zu reduzieren.
+**AAPS** funktioniert am besten, wenn die Blutzuckerdaten glatt und konsistent sind. Wenn Sie xDrip + als Datenquelle verwenden, können Sie einige Maßnahmen ergreifen, um das Rauschen in den Daten zu reduzieren.
 
 Benutzer von Abbot Freestyle Libre-Sensoren, die ihre Blutzuckerdaten über Geräte wie LimiTTers sammeln, können feststellen, dass diese Einstellungen zu besseren Ergebnissen mit AAPS führen.
 
 **Smooth Sensor Noise** In xDrip + Einstellungen> xDrip + Display-Einstellungen stellen Sie sicher, dass das Smooth Sensor Noise eingeschaltet ist. Dieses versucht eine Glättung auf verrauschte Daten anzuwenden.
 
-** Glattes Sensorrauschen (ultrasensitiv). ** Wenn Sie in xDrip + immer noch verrauschte Daten sehen, können Sie aggressiveres Glätten mit der Einstellung Glattes Sensorrauschen (ultrasensitiv) anwenden. Dies wird versuchen, eine Glättung sogar bei sehr niedrigen Pegeln von detektiertem Rauschen anzuwenden. 
+**Glattes Sensorrauschen (ultrasensitiv)**. Wenn Sie in xDrip + immer noch verrauschte Daten sehen, können Sie aggressiveres Glätten mit der Einstellung Glattes Sensorrauschen (ultrasensitiv) anwenden. Dies wird versuchen, eine Glättung sogar bei sehr niedrigen Pegeln von detektiertem Rauschen anzuwenden. 
 
-Der Engineering Mode in xDrip+ aktiviert erweiterte und experimenntelle Funktionen innerhalb der App.
+Der **Engineering Mode** in xDrip+ aktiviert erweiterte und experimenntelle Funktionen innerhalb der App.
 
 Um den Engineering Mode zu Aktivieren, Gehen sie auf dem xDrip+ Hauptmenü und Klicken Sie auf das Behandlungs - Icon an der rechten oberen Seite (symbolisiert durch eine Spritze). Danach Drücken und Halten sie das Microphon Icon am rechten unteren Ende des Treatment Displays. Im Textfeld, das sich öffnet, geben Sie "enable engineering mode" ein und Klicken sie auf *Done*. Der Engineering Modus ist jetzt aktiviert.
 

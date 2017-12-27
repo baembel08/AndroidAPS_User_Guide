@@ -37,7 +37,7 @@
 ![Select build type](https://github.com/gempickfordwaugh/AndroidAPS/raw/b09d7dc444f59b799888bcd596e36e1d562a9674/generate%20signed%20APK%20select%20buildtype%20v1.png)
 * Моля, изчакайте известно време, докато се създаде APK. Ще се появи изскачащ прозорец, когато процесът е приключил.
 
-![Generating APK](../images/androidstudio3.png)
+![Generating APK](../../images/androidstudio3.png)
 
 * Кликнете върху "Show in Explorer". Ще видите генерираният APK файл. Понякога показването му може да отнеме известно време.
 
@@ -60,7 +60,7 @@
 
 и след това checkout
 
-![Checkout](../images/checkout.png)
+![Checkout](../../images/checkout.png)
 
 
 # Обновяване на клон от Github

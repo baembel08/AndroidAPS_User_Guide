@@ -43,7 +43,7 @@ APK erstellen
 
 * Bitte warte eine Weile bis die APK fertig gestellt ist. Du bekommst eine Benachrichtigung.
 
-![Generating APK](../images/androidstudio3.png)
+![Generating APK](../../images/androidstudio3.png)
 
 * Klicke auf 'Show in Explorer'. Hier findest du die APK, manchmal kann es ein bisschen dauern bis sie angezeigt wird.
 
@@ -56,7 +56,7 @@ Installiere git (falls du es noch nicht hast)
 ---------------------------------------------
 * jede git Version sollte funktionieren. Zum Beispiel https://git-scm.com/download/win
 * Wähle den Ordner wo git.exe ist: File - Settings - Version Control - Git
-![git](../images/git.png)
+![git](../../images/git.png)
 
 Wähle einen "branch"
 --------------

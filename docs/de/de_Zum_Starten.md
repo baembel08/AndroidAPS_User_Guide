@@ -64,7 +64,7 @@ Screenshots
 ![ConfigBuilder2](https://img1.picload.org/image/dgdgcila/aaps-config-builder2-small.jpg)
 
 
-![Objectives](../images/objectives.png)
+![Objectives](../../images/objectives.png)
 
 Architektur - Implementierung von Sicherheit
 ============================================
@@ -203,5 +203,5 @@ Für das meiste "Looper Vokabular" gehe zu: https://openaps.readthedocs.io/en/la
 
 Einige AndroidAPS spezifische Bezeichnungen:
 
-* [Circadian Percentage Profil_de](http://androidaps-user-guide.readthedocs.io/en/latest/de/de_Benutzung.html#circadian-percentage-profil) - ändert dein Basisprofil anhand der eingestellten Zeit oder prozentual.
+* [Circadian Percentage Profil](http://androidaps-user-guide.readthedocs.io/en/latest/de/de_Benutzung.html#circadian-percentage-profil) - ändert dein Basisprofil anhand der eingestellten Zeit oder prozentual.
 * Dev (im Homescreen) - Deviation, zeigt an um wie viel Einheiten sich der tatsächliche Anstieg/Senkung des BZ, gegenüber des vorhergesagten Wertes (durch OpenAPS und eingegebener Daten) unterscheidet.
